@@ -1,0 +1,12 @@
+.env
+.idea
+.pio
+lib
+.settings
+Drivers
+Startup
+.cproject
+.mxproject
+.project
+cmake-build-debug
+cmake-build-release

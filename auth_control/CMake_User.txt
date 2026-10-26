@@ -1,0 +1,15 @@
+﻿set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+set(CMAKE_C_COMPILER "C:/arm-none-eabi/bin/arm-none-eabi-gcc.exe" CACHE FILEPATH "" FORCE)
+set(CMAKE_CXX_COMPILER "C:/arm-none-eabi/bin/arm-none-eabi-g++.exe" CACHE FILEPATH "" FORCE)
+set(CMAKE_ASM_COMPILER "C:/arm-none-eabi/bin/arm-none-eabi-gcc.exe" CACHE FILEPATH "" FORCE)
+set(CMAKE_AR "C:/arm-none-eabi/bin/arm-none-eabi-ar.exe" CACHE FILEPATH "" FORCE)
+set(CMAKE_OBJCOPY "C:/arm-none-eabi/bin/arm-none-eabi-objcopy.exe" CACHE FILEPATH "" FORCE)
+set(CMAKE_OBJDUMP "C:/arm-none-eabi/bin/arm-none-eabi-objdump.exe" CACHE FILEPATH "" FORCE)
+set(SIZE "C:/arm-none-eabi/bin/arm-none-eabi-size.exe" CACHE FILEPATH "" FORCE)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_C_STANDARD 11)
+
+add_compile_options(-Wno-register -Wno-volatile)
