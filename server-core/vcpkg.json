@@ -1,10 +1,12 @@
 ﻿{
-  "name": "security_system",
+  "name": "server-core",
   "version": "1.0.0",
   "dependencies": [
     "fmt",
     "botan",
     "nlohmann-json",
-    "drogon"
+    "drogon",
+    "openssl",
+    "jwt-cpp"
   ]
 }
